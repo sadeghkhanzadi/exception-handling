@@ -5,6 +5,12 @@ import com.sadeghkhanzadi.exception_handling.exception.enums.ErrorCodeMessage;
 import com.sadeghkhanzadi.exception_handling.exception.exceptions.BaseException;
 import org.springframework.http.HttpStatusCode;
 
+
+/**
+ * Author : Sadegh Khanzadi
+ * Email : khanzadisadegh@gmail.com
+ * Tell: 09030908290
+ * */
 public class MessengerException extends RuntimeException implements BaseException {
 
     private static final long serialVersionUID = 7350691158514983542L;

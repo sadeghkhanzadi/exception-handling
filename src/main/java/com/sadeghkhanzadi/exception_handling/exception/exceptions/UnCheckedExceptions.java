@@ -7,6 +7,12 @@ import org.springframework.http.HttpStatusCode;
 
 import java.util.Date;
 
+
+/**
+ * Author : Sadegh Khanzadi
+ * Email : khanzadisadegh@gmail.com
+ * Tell: 09030908290
+ * */
 public class UnCheckedExceptions {
     public static ErrorMessage getErrorMessage(Throwable ex) {
         ErrorMessage message = new ErrorMessage.Builder().builder();

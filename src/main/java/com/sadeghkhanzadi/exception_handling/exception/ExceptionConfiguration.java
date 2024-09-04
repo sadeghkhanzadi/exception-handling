@@ -18,6 +18,11 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+/**
+* Author : Sadegh Khanzadi
+ * Email : khanzadisadegh@gmail.com
+ * Tell: 09030908290
+* */
 
 @ControllerAdvice
 public class ExceptionConfiguration extends ResponseEntityExceptionHandler {

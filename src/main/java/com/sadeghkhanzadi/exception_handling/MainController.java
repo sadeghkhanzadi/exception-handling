@@ -6,6 +6,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
+/**
+ * Author : Sadegh Khanzadi
+ * Email : khanzadisadegh@gmail.com
+ * Tell: 09030908290
+ * */
 @RestController
 public class MainController {
     @GetMapping("/ok")

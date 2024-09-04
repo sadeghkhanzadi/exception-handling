@@ -8,6 +8,11 @@ import org.springframework.http.HttpStatusCode;
 import java.util.Date;
 
 
+/**
+ * Author : Sadegh Khanzadi
+ * Email : khanzadisadegh@gmail.com
+ * Tell: 09030908290
+ * */
 public class OauthException extends RuntimeException implements BaseException {
 
     private static final long serialVersionUID = 7480721453216976521L;

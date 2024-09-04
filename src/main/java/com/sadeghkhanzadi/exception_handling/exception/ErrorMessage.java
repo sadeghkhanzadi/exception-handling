@@ -4,6 +4,11 @@ import org.springframework.http.HttpStatusCode;
 
 import java.util.Date;
 
+/**
+ * Author : Sadegh Khanzadi
+ * Email : khanzadisadegh@gmail.com
+ * Tell: 09030908290
+ * */
 public class ErrorMessage {
     public HttpStatusCode http_status_code;
     public int http_custom_error_code;
