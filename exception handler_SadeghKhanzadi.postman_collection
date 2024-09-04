@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "f54b4861-75d8-46e7-894b-615e05087e8c",
+		"name": "exception handler",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30088251"
+	},
+	"item": [
+		{
+			"name": "ExeptionHandler",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/exeptionNotHandler",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"exeptionNotHandler"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:9090/exeptionNotHandler",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:9090/exeptionHandler",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"exeptionHandler"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 04 Sep 2024 17:45:43 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"http_status_code\": \"FORBIDDEN\",\n    \"http_custom_error_code\": 0,\n    \"timestamp\": \"2024-09-04T17:45:43.175+00:00\",\n    \"message\": \"User Not Access\",\n    \"description\": \"User Not Access\"\n}"
+				}
+			]
+		},
+		{
+			"name": "ExeptionNotHandler",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/exeptionNotHandler",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"exeptionNotHandler"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "ExeptionNotHandler",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:9090/exeptionNotHandler",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"exeptionNotHandler"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 04 Sep 2024 17:46:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"http_status_code\": \"INTERNAL_SERVER_ERROR\",\n    \"http_custom_error_code\": 0,\n    \"timestamp\": \"2024-09-04T17:46:42.344+00:00\",\n    \"message\": \"not handler exception\",\n    \"description\": \"Internal Server Error\"\n}"
+				}
+			]
+		}
+	]
+}
